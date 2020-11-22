@@ -8,8 +8,9 @@ for a rod of length n is large enough, an optimal solution may require no cuttin
 @author: Duncan Mazza
 """
 
+
 import numpy as np
-from dynamic_programming.rod_cutting_example.test_cut_rod import RodValueLookup
+from dynamic_programming.rod_cutting_example.rod_value_lookup import *
 
 
 def max_value_recurse(rod_len: int) -> float:
